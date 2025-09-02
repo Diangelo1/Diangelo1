@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA DE GESTÃO ACADÊMICA</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+
+            <h5 style="background-color: #CB981E;">SISTEMA DE GESTÃO ACADÊMICA</h5>
+            <h6>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h6>
+
+
+            <table>
+                <tr>
+                    <td><label for="login">Login</label></td>
+                    <td><input type="text" id="login" name="login"></td>
+                </tr>
+                <tr>
+                    <td><label for="senha">Senha</label></td>
+                    <td><input type="password" id="senha" name="senha"></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Status</label></td>
+                    <td>
+                        <select id="status" name="status">
+                            <option value="Ativo">Ativo</option>
+                            <option value="Inativo" selected>Inativo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Tipo</label></td>
+                    <td>
+                        <input type="radio" name="tipo" value="tecnico"> Técnico
+                        <input type="radio" name="tipo" value="professor"> Professor
+                        <input type="radio" name="tipo" value="aluno"> Aluno
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="data">Data Criação</label></td>
+                    <td><input type="date" id="data" name="data"></td>
+                </tr>
+                <tr>
+                    <td><label>Perfil</label></td>
+                    <td>
+                        <input type="radio" name="perfil" value="convidado"> Convidado
+                        <input type="radio" name="perfil" value="admin"> Administrador
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="obs">Observações</label></td>
+                    <td><textarea id="obs" name="obs"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Módulos</label></td>
+                    <td>
+                        <input type="checkbox" name="modulo" value="compras"> Compras
+                        <input type="checkbox" name="modulo" value="biblioteca"> Biblioteca
+                        <input type="checkbox" name="modulo" value="academico"> Acadêmico<br>
+                        <input type="checkbox" name="modulo" value="documentacao"> Documentação
+                        <input type="checkbox" name="modulo" value="rh"> Recursos Humanos
+                    </td>
+                </tr>
+            </table>
+
+            <div class="botoes">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Excluir</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
