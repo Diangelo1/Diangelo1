@@ -12,20 +12,35 @@
     <style>
         * {
             font-size: 15px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI' ,Arial ,sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: large;
         }
 
+        div{
+            border: 1px solid gray;
+            padding: 16px;
+            margin-top: 50px;
+        }
         h1 {
             text-align: center;
-            
-            color: #4caf50;;
+            text-transform: uppercase;
+            color: #4caf50;
+            text-shadow: 0 0 10px #ff0000;
         }
 
         p {
-            color: #008cba;;
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #008CBA;
+            border: 1px groove green;
+            border-radius: 20px;
         }
 
         #titulo {
@@ -36,10 +51,16 @@
             background-color: darkgray;
         }
 
-        body {
+        /*body {
             background-image: url("logo-mercado-livre.png");
             background-repeat: no-repeat;
             background-size: cover;
+        }*/
+
+        #paragrafo{
+            height: 200px;
+            width: 400px;
+            background-color: aqua;
         }
     </style>
 
@@ -48,7 +69,7 @@
 
 <body>
     <!-- inline -->
-    <h1 style="color: red;font-size: 18px;">CSS - Cascading Style Sheets</h1>
+    <h1 style="color: rgb(185, 21, 21);font-size: 18px;">CSS - Cascading Style Sheets</h1>
 
     <!-- interno -->
     <h1>Primeira aula de CSS</h1>
@@ -76,17 +97,18 @@
 
     <p>desenvolvedor</p>
 
+
     <div>
-        <fieldset>
-            <legend></legend>
-            <h1>FORMATAÇÃO DE TEXTO</h1>
-            <P>Este texto é etilizado com algumas das propriedades de formatação de texto. O titulo usa
-                as propriedades text-align, text-transform e color. O parágrafo é recuado, alinhado e o
-                espaço entre os caracteres é especificado. O sublinhado é removido deste link colorido 'Experimente
-                você mesmo'
-            </P>
-        </fieldset>
+        <h1>FORMATAÇÃO DE TEXTO</h1>
+        <P>Este texto é etilizado com algumas das propriedades de formatação de texto. O titulo usa
+            as propriedades text-align, text-transform e color. O parágrafo é recuado, alinhado e o
+            espaço entre os caracteres é especificado. O sublinhado é removido deste link colorido 'Experimente
+            você mesmo'
+            <a target="_blank" href="">"Experimente você mesmo."</a>link.
+        </P>
     </div>
+
+    <div id="paragrafo"></div>
 
 </body>
 

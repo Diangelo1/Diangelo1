@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    *{
+        vertical-align: baseline;
+        font-weight: inherit;
+    }
+    body{
+        text-align: center
+    }
+    .bloco1, .bloco2, .bloco3{
+        display: inline-block;
+        width: 150px;
+        height: 200px;
+    }
+    .bloco1{
+        background-color: #ff00ff;
+        z-index: 2;
+    }
+
+    .bloco2{
+        background-color: #0044cc;
+        opacity: 0.6;
+        position: fixed;
+        top: 10px;
+        left: 200px;
+        z-index: 1;
+    }
+
+    .bloco3{
+        background-color: #ffdd00;
+        position: fixed;
+        top: 10px;
+        left: 400px;
+    }
+
+    img{
+        float: right;
+    }
+    .paragrafo-baixo{
+        clear:right
+    }
+</style>
+<body>
+    <div class="bloco1">
+        bloco 1
+    </div>
+
+    <div class="bloco2">
+        bloco 2
+    </div>
+
+    <div class="bloco3">
+        bloco 3
+    </div>
+
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ipsa, facilis tempora, optio dignissimos, dolore sed temporibus eveniet vero doloremque eaque? Ipsam qui dolor porro pariatur officia, optio vero provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dicta ad eaque. Quasi animi ipsa totam saepe, consectetur obcaecati asperiores beatae suscipit, iste voluptate, ducimus optio odio corrupti deleniti? Quibusdam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, nesciunt esse quos praesentium eum eos, veritatis sint, saepe id voluptatibus officiis delectus cum mollitia impedit quis? Sed nulla vero aliquid.</p>
+    <img src="pastaImagens/cavaloclydesdale.jpg" alt="" width="250px" height="150px">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia numquam possimus error vel asperiores exercitationem minus totam quidem dignissimos, unde vitae dolor accusamus temporibus? Ipsum omnis asperiores inventore blanditiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nobis delectus at eum rem accusamus sunt voluptatem ut mollitia dolorem vero, quasi temporibus repellat laborum tenetur ratione iste sit repudiandae.</p>
+    <p class="paragrafo-baixo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestias molestiae, doloribus perferendis in ipsam voluptatum quod nam! Ex vel similique voluptas ipsam sit provident iure quibusdam maiores tempora numquam.</p>
+
+</body>
+</html>
