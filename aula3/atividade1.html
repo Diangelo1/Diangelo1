@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale Conosco</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    fieldset {
+      width: 450px;
+      margin: 30px auto;
+      padding: 15px;
+      border: 2px solid green;
+      background: linear-gradient(#ffffff, #ccffcc);
+    }
+
+    legend {
+      font-weight: bold;
+      color: red;
+      background-color: pink;
+      padding: 3px 8px;
+      border: 1px solid green;
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+
+    .form-group label {
+      display: inline-block;
+      width: 90px;        /* largura fixa para alinhar */
+      font-weight: bold;
+      color: green;
+      text-align: left;  /* texto da label alinhado à direita */
+      margin-right: 10px;
+      vertical-align: top;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 280px;       /* largura dos inputs */
+      background-color: #ffe6ff;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    .form-group textarea {
+      height: 100px;
+      resize: none;
+    }
+
+    button {
+      margin-left: 100px; /* para alinhar com os inputs */
+      padding: 5px 12px;
+      background-color: #ffe6ff;
+      border: 1px solid #999;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Fale conosco</legend>
+
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>
