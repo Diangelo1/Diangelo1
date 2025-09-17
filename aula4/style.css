@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu de Navegação */
+nav{
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Layout principal */
+main{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Seção principal */
+section{
+    flex: 3;
+}
+
+article{
+    background-color: rgba(126, 111, 190, 0.884);
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.botao{
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: #0056b3;
+}
+
+/* Barra lateral */
+aside{
+    flex: 1;
+    background-color: #fff8dc;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+h2{
+    color: #333;
+}
+
+p{
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+form label{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
