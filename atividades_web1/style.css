@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #1e1e2f, #2c3e50);
+    color: #f1f1f1;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00d9ff;
+}
+
+header nav a {
+    color: #00d9ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header p {
+    color: #ccc;
+}
+
+/* Seções */
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Títulos */
+section h2 {
+    color: #00d9ff;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Animais com ícones */
+.animais ul {
+    list-style: "🐾 "; 
+    margin-left: 20px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #00d9ff;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Imagens */
+section img {
+    max-width: 20%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    margin: 10px 10px 10px 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Hover nas imagens */
+section img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
