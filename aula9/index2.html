@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            /* Alinha os labels à esquerda */
+            margin-bottom: 8px;
+        }
+
+        input {
+            margin-bottom: 8px;
+        }
+
+        button {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Span em linhas separadas */
+        #promocao,
+        #entrada,
+        #valor_parcela {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Exercício DOM 2</title>
+</head>
+
+<body>
+    <h1>Revenda de Veículos JS</h1>
+
+    <div class="form- linhas">
+
+        <label for="veiculo">Veículo</label>
+        <input type="text" id="veiculo"></input>
+
+        <br>
+
+        <label for="preco">Preço R$:</label>
+        <input type="number" id="preco"></input>
+
+        <button id="botao">Ver Promoção</button>
+
+        <span id="promocao"></span>
+        <span id="entrada"></span>
+        <span id="valor_parcela"></span>
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
