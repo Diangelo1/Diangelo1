@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <style>
+        #form2 {
+            padding-left: 350px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            width: 200px;
+            /* Alinha os labels à esquerda */
+            margin-bottom: 8px;
+        }
+
+        input {
+            margin-bottom: 8px;
+        }
+
+        button {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Span em linhas separadas */
+        #carro_atual,
+        #preco_venda {
+            display: block;
+            margin-left: 8px;
+        }
+
+        #lambo_azul{
+            display: block;
+            margin-top: -180px;
+        }
+
+    </style>
+    <script>
+        
+    </script>
+</head>
+
+<body>
+    <form id="form2">
+        <h1>Revenda Herbie - Consignados</h1>
+        <table>
+            <tr>
+                <td><label for="modelo">Modelo do Veículo:</label></td>
+                <td><input type="text" id="modelo" name="modelo"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ano_fab">Ano de Fábricação:</label></td>
+                <td><input type="number" id="ano_fab" name="ano_fab"></td>
+            </tr>
+            <tr>
+                <td><label for="preco_prop">Preço Proprietário R$:</label></td>
+                <td><input type="number" id="preco_prop" name="preco_prop"></td>
+            </tr>
+            <tr>
+                <td><button>Classifiar/Calcular Preço</button></td>
+            </tr>
+            <tr>
+                <td><span id="carro_atual"></span></td>
+                <td><span id="preco_venda"></span></td>
+            </tr>
+        </table>
+    </form>
+    <form>
+        <span id="lambo_azul">
+            <img src="blue-lamborghini-aventador.jpg" width="40%" height="40%"alt="lamborghini_azul">
+        </span>
+    </form>
+</body>
+
+</html>
