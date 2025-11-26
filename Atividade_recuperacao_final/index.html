@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #imagem {
+            width: 200px;
+        }
+
+        div {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        button {
+            border: none;
+            color: white;
+            padding: 10px 24px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #botao_adicionar {
+            margin-top: 10px;
+            /* para alinhar com os inputs */
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        #botao_montar {
+            margin-top: 10px;
+            /* para alinhar com os inputs */
+            background-color: rgb(42, 202, 42);
+            color: white;
+
+        }
+
+        #botao_apagar {
+            margin-top: 10px;
+            /* para alinhar com os inputs */
+            background-color: red;
+            color: white;
+        }
+
+        #clubes{
+            display: block;
+            margin-top: 10px;
+        }
+
+        span{
+            text-align: right;
+            display: inline-block;
+        }
+    </style>
+    
+    <title>Atividade recuperação</title>
+</head>
+
+<body>
+    <h1>Copa do Brasil - Classificados</h1>
+    <img id="imagem" src="copa-do-brasil-logo.png" alt="Copa-do-brasil">
+    <div>
+        <label id="clube" for="clube">Clube:</label>
+        <input type="text" id="times"></input>
+
+        <br>
+
+        <button id="botao_adicionar">Adicionar</button>
+        <button id="botao_montar">Montar Tabelas de Jogos</button>
+        <button id="botao_apagar">Novos Clubes</button>
+        
+
+    </div>
+    <span id="clubes"></span>
+    <script src="script.js"></script>
+</body>
+
+</html>
